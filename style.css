@@ -1,0 +1,150 @@
+body {
+	color: white;
+	background: linear-gradient(45deg, red, yellow);
+	display: inline-block;
+
+	animation: gradient 7s infinite;
+	background-size: 400% 400%;
+	transition: 0.5s
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+img {	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	opacity: 0.7;
+	transition: 0.4s;
+	margin-top: 20px;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+p {
+	font-size: 20px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:10px 10px 15px black;
+	font-size: 30px;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:10px 10px 15px black;
+	font-size: 25px;
+}
+h4{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:10px 10px 15px black;
+	font-size: 20px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: Freestyle Script;
+	font-size: 60px;
+	text-shadow:10px 10px 15px black;
+}
+.q{
+	
+	display: inline-block;
+	padding:11px;
+	width: 93%;
+	border: 4px solid black;
+	border-radius: 5px;
+	vertical-align: top;
+	margin:40px;
+	min-width: 250px;
+	box-shadow:0px 0px 15px black;
+	box-shadow: 12px 12px 20px black;
+}
+.pr{
+	background-color: darkred;
+	display: inline-block;
+	padding:10px;
+	width: 29%;
+	border: 1px solid black;
+	border-radius: 5px;
+	vertical-align: top;
+	margin:10px;
+	min-width: 250px;
+	box-shadow:5px 5px 15px black;
+}
+.w{
+	background-color: darkred;
+	display: inline-block;
+	padding:10px;
+	width: 96%;
+	border: 1px solid black;
+	border-radius: 5px;
+	vertical-align: top;
+	margin:10px;
+	min-width: 250px;
+	box-shadow:5px 5px 15px black;
+}
+.prq{
+	background-color: darkred;
+	display: inline-block;
+	padding:10px;
+	width: 46%;
+	border: 1px solid black;
+	border-radius: 5px;
+	vertical-align: top;
+	margin:10px;
+	min-width: 250px;
+	box-shadow:5px 5px 15px black;
+}
+.pre{
+	box-shadow: 12px 12px 20px black;
+	background-color: darkred;
+	display: inline-block;
+	padding:10px;
+	width: 97%;
+	border: 1px solid black;
+	border-radius: 5px;
+	vertical-align: top;
+	margin:10px;
+	min-width: 250px;
+	
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
